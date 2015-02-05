@@ -1,4 +1,4 @@
-
+//Classe responsavel pela entidade carro
 public class Carro {
 	
 	String cor;
