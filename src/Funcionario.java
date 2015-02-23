@@ -22,6 +22,16 @@ public class Funcionario {
 	    System.out.println("Ganhos Anuais" + this.calcularGanhosAnuais());
 	}
 	
+	
+	void mostra1(){
+		
+		System.out.println("Nome:" + this.nomeFuncionario );
+		System.out.println("Dia:" + this.dataFuncionario.dia);
+		System.out.println("Mês:" + this.dataFuncionario.mes);
+		System.out.println("Ano:" + this.dataFuncionario.ano);
+		
+		
+	}
 	Double calcularGanhosAnuais(){
 		this.salarioFuncionario = this.salarioFuncionario * 12;
 		return salarioFuncionario;

@@ -1,21 +1,26 @@
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 
 public class TesteFuncionario {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+	
+		
 		Funcionario f1 = new Funcionario();
+		Data data4 = new Data();
         f1.nomeFuncionario = "Jonnes";
         f1.salarioFuncionario = 1000.0;
         f1.receberAumento(1500);
+        f1.dataFuncionario = data4;
         
-        Data data = new Data();
-        f1.dataFuncionario = data;
         
         Funcionario f2 = new Funcionario();
         f2.nomeFuncionario = "Maria ";
         f2.departamentoFuncionario = "Peixaria";
-    //    f2.dataFuncionario =  15/01/15;
+        f2.dataFuncionario =  data4;
         f2.rgFuncionario = "555000";
         f2.salarioFuncionario = 1500.0;
         
