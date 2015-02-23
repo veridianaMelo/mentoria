@@ -1,5 +1,5 @@
 
-public class Cliente7 {
+public class Cliente {
 
 	String nome;
 	String sobrenome;
